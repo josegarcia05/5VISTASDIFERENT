@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="452dp"
+        android:layout_height="200dp"
+        android:text="dale play"
+        android:textSize="100sp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="218dp"
+        android:layout_height="103dp"
+        android:text="ACEPTAR"
+        android:textColor="#452"
+        android:textStyle="bold|italic" />
+</android.support.constraint.ConstraintLayout>
